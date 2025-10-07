@@ -20,7 +20,7 @@ def generate_launch_description():
                 package="rosbridge_server",
                 executable="rosbridge_websocket",
                 name="rosbridge_websocket",
-                parameters=[{"port": 8080}]
+                # parameters=[{"port": 8080}]
             )
         ]
     )
